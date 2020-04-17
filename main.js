@@ -6,5 +6,8 @@ console.log(firstName);
 var lastName = prompt ('Qual è il tuo cognome?');
 console.log(lastName);
 //Chiedere all'utente il suo colore preferito
-
+var favoriteColor = prompt('Qual è il tuo colore preferito?');
+console.log(favoriteColor);
 //Generare la password utente
+var yourPassword = firstName + lastName + favoriteColor + 20;
+console.log(yourPassword);
