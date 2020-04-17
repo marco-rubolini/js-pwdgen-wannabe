@@ -11,3 +11,5 @@ console.log(favoriteColor);
 //Generare la password utente
 var yourPassword = firstName + lastName + favoriteColor + 20;
 console.log(yourPassword);
+
+document.getElementById('password').innerHTML = yourPassword
