@@ -1,4 +1,6 @@
 //Chiedere all'utente il suo nome
+var firstName = prompt ('Qual è il tuo nome');
+console.log(firstName);
 
 //Chiedere all'utente il suo cognome
 
