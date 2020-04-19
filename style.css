@@ -41,13 +41,16 @@ h1 {
 }
 
 span {
-    display: inline-block;
+    display: none;
     color: white;
     letter-spacing: 5px;
+    animation-name: prova;
+    animation-duration: 5s;
 }
 #password {
-    animation-name: prova;
-    animation-duration: 2s;
+    /* animation-name: prova;
+    animation-duration: 5s; */
+    /* display: none; */
 
 }
 
@@ -55,4 +58,8 @@ span {
     0% { transform: scale(0);}
     50% { transform: scale(2);}
     100% {transform: scale(1);}
+}
+
+.visible {
+    display: inline-block;
 }

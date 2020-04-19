@@ -16,3 +16,4 @@ console.log(yourPassword);
 
 //Scrivere la password generata
 document.getElementById('password').innerHTML = yourPassword
+document.getElementById('password').setAttribute('class', 'visible');
